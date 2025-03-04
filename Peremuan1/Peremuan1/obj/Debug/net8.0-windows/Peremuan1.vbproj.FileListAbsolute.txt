@@ -1,0 +1,17 @@
+C:\Users\TUF\Documents\Kuliah\Praktikum\Lab\PemVis\ujicoba\Pemrograman-Visual-Lab25\Peremuan1\Peremuan1\bin\Debug\net8.0-windows\Peremuan1.exe
+C:\Users\TUF\Documents\Kuliah\Praktikum\Lab\PemVis\ujicoba\Pemrograman-Visual-Lab25\Peremuan1\Peremuan1\bin\Debug\net8.0-windows\Peremuan1.deps.json
+C:\Users\TUF\Documents\Kuliah\Praktikum\Lab\PemVis\ujicoba\Pemrograman-Visual-Lab25\Peremuan1\Peremuan1\bin\Debug\net8.0-windows\Peremuan1.runtimeconfig.json
+C:\Users\TUF\Documents\Kuliah\Praktikum\Lab\PemVis\ujicoba\Pemrograman-Visual-Lab25\Peremuan1\Peremuan1\bin\Debug\net8.0-windows\Peremuan1.dll
+C:\Users\TUF\Documents\Kuliah\Praktikum\Lab\PemVis\ujicoba\Pemrograman-Visual-Lab25\Peremuan1\Peremuan1\bin\Debug\net8.0-windows\Peremuan1.pdb
+C:\Users\TUF\Documents\Kuliah\Praktikum\Lab\PemVis\ujicoba\Pemrograman-Visual-Lab25\Peremuan1\Peremuan1\obj\Debug\net8.0-windows\Peremuan1.Form1.resources
+C:\Users\TUF\Documents\Kuliah\Praktikum\Lab\PemVis\ujicoba\Pemrograman-Visual-Lab25\Peremuan1\Peremuan1\obj\Debug\net8.0-windows\Peremuan1.vbproj.GenerateResource.cache
+C:\Users\TUF\Documents\Kuliah\Praktikum\Lab\PemVis\ujicoba\Pemrograman-Visual-Lab25\Peremuan1\Peremuan1\obj\Debug\net8.0-windows\Peremuan1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TUF\Documents\Kuliah\Praktikum\Lab\PemVis\ujicoba\Pemrograman-Visual-Lab25\Peremuan1\Peremuan1\obj\Debug\net8.0-windows\Peremuan1.AssemblyInfoInputs.cache
+C:\Users\TUF\Documents\Kuliah\Praktikum\Lab\PemVis\ujicoba\Pemrograman-Visual-Lab25\Peremuan1\Peremuan1\obj\Debug\net8.0-windows\Peremuan1.AssemblyInfo.vb
+C:\Users\TUF\Documents\Kuliah\Praktikum\Lab\PemVis\ujicoba\Pemrograman-Visual-Lab25\Peremuan1\Peremuan1\obj\Debug\net8.0-windows\Peremuan1.vbproj.CoreCompileInputs.cache
+C:\Users\TUF\Documents\Kuliah\Praktikum\Lab\PemVis\ujicoba\Pemrograman-Visual-Lab25\Peremuan1\Peremuan1\obj\Debug\net8.0-windows\Peremuan1.sourcelink.json
+C:\Users\TUF\Documents\Kuliah\Praktikum\Lab\PemVis\ujicoba\Pemrograman-Visual-Lab25\Peremuan1\Peremuan1\obj\Debug\net8.0-windows\Peremuan1.dll
+C:\Users\TUF\Documents\Kuliah\Praktikum\Lab\PemVis\ujicoba\Pemrograman-Visual-Lab25\Peremuan1\Peremuan1\obj\Debug\net8.0-windows\refint\Peremuan1.dll
+C:\Users\TUF\Documents\Kuliah\Praktikum\Lab\PemVis\ujicoba\Pemrograman-Visual-Lab25\Peremuan1\Peremuan1\obj\Debug\net8.0-windows\Peremuan1.pdb
+C:\Users\TUF\Documents\Kuliah\Praktikum\Lab\PemVis\ujicoba\Pemrograman-Visual-Lab25\Peremuan1\Peremuan1\obj\Debug\net8.0-windows\Peremuan1.genruntimeconfig.cache
+C:\Users\TUF\Documents\Kuliah\Praktikum\Lab\PemVis\ujicoba\Pemrograman-Visual-Lab25\Peremuan1\Peremuan1\obj\Debug\net8.0-windows\ref\Peremuan1.dll
