@@ -22,185 +22,86 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        btnVariabel = New Button()
-        btnVariabel1 = New Button()
-        btnOperator = New Button()
-        btnOperator1 = New Button()
-        btnOperator2 = New Button()
-        btnIF = New Button()
-        btnIF1 = New Button()
-        btnIF2 = New Button()
-        btnIF3 = New Button()
-        btnCase = New Button()
-        btnForNext = New Button()
-        btnDoLoop = New Button()
-        btnDoLoop1 = New Button()
-        btnDoLoop2 = New Button()
+        Label1 = New Label()
+        Label2 = New Label()
+        Label3 = New Label()
+        txtboxPanjang = New TextBox()
+        txtboxLebar = New TextBox()
+        btnHitung = New Button()
         SuspendLayout()
         ' 
-        ' btnVariabel
+        ' Label1
         ' 
-        btnVariabel.Location = New Point(12, 12)
-        btnVariabel.Name = "btnVariabel"
-        btnVariabel.Size = New Size(94, 29)
-        btnVariabel.TabIndex = 0
-        btnVariabel.Text = "Variabel"
-        btnVariabel.UseVisualStyleBackColor = True
+        Label1.AutoSize = True
+        Label1.Location = New Point(313, 43)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(185, 20)
+        Label1.TabIndex = 0
+        Label1.Text = "kalkulator persegi panjang"
         ' 
-        ' btnVariabel1
+        ' Label2
         ' 
-        btnVariabel1.Location = New Point(12, 47)
-        btnVariabel1.Name = "btnVariabel1"
-        btnVariabel1.Size = New Size(94, 29)
-        btnVariabel1.TabIndex = 1
-        btnVariabel1.Text = "Variabel1"
-        btnVariabel1.UseVisualStyleBackColor = True
+        Label2.AutoSize = True
+        Label2.Location = New Point(56, 92)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(63, 20)
+        Label2.TabIndex = 1
+        Label2.Text = "panjang"
         ' 
-        ' btnOperator
+        ' Label3
         ' 
-        btnOperator.Location = New Point(12, 118)
-        btnOperator.Name = "btnOperator"
-        btnOperator.Size = New Size(94, 29)
-        btnOperator.TabIndex = 2
-        btnOperator.Text = "Operator"
-        btnOperator.UseVisualStyleBackColor = True
+        Label3.AutoSize = True
+        Label3.Location = New Point(54, 173)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(43, 20)
+        Label3.TabIndex = 2
+        Label3.Text = "lebar"
         ' 
-        ' btnOperator1
+        ' txtboxPanjang
         ' 
-        btnOperator1.Location = New Point(12, 153)
-        btnOperator1.Name = "btnOperator1"
-        btnOperator1.Size = New Size(94, 29)
-        btnOperator1.TabIndex = 3
-        btnOperator1.Text = "Operator1"
-        btnOperator1.UseVisualStyleBackColor = True
+        txtboxPanjang.Location = New Point(54, 115)
+        txtboxPanjang.Name = "txtboxPanjang"
+        txtboxPanjang.Size = New Size(313, 27)
+        txtboxPanjang.TabIndex = 3
         ' 
-        ' btnOperator2
+        ' txtboxLebar
         ' 
-        btnOperator2.Location = New Point(12, 188)
-        btnOperator2.Name = "btnOperator2"
-        btnOperator2.Size = New Size(94, 29)
-        btnOperator2.TabIndex = 4
-        btnOperator2.Text = "Operator2"
-        btnOperator2.UseVisualStyleBackColor = True
+        txtboxLebar.Location = New Point(61, 209)
+        txtboxLebar.Name = "txtboxLebar"
+        txtboxLebar.Size = New Size(306, 27)
+        txtboxLebar.TabIndex = 4
         ' 
-        ' btnIF
+        ' btnHitung
         ' 
-        btnIF.Location = New Point(12, 246)
-        btnIF.Name = "btnIF"
-        btnIF.Size = New Size(94, 29)
-        btnIF.TabIndex = 5
-        btnIF.Text = "IF"
-        btnIF.UseVisualStyleBackColor = True
-        ' 
-        ' btnIF1
-        ' 
-        btnIF1.Location = New Point(12, 281)
-        btnIF1.Name = "btnIF1"
-        btnIF1.Size = New Size(94, 29)
-        btnIF1.TabIndex = 6
-        btnIF1.Text = "IF1"
-        btnIF1.UseVisualStyleBackColor = True
-        ' 
-        ' btnIF2
-        ' 
-        btnIF2.Location = New Point(12, 316)
-        btnIF2.Name = "btnIF2"
-        btnIF2.Size = New Size(94, 29)
-        btnIF2.TabIndex = 7
-        btnIF2.Text = "IF2"
-        btnIF2.UseVisualStyleBackColor = True
-        ' 
-        ' btnIF3
-        ' 
-        btnIF3.Location = New Point(12, 351)
-        btnIF3.Name = "btnIF3"
-        btnIF3.Size = New Size(94, 29)
-        btnIF3.TabIndex = 8
-        btnIF3.Text = "IF3"
-        btnIF3.UseVisualStyleBackColor = True
-        ' 
-        ' btnCase
-        ' 
-        btnCase.Location = New Point(169, 246)
-        btnCase.Name = "btnCase"
-        btnCase.Size = New Size(94, 29)
-        btnCase.TabIndex = 9
-        btnCase.Text = "CASE"
-        btnCase.UseVisualStyleBackColor = True
-        ' 
-        ' btnForNext
-        ' 
-        btnForNext.Location = New Point(371, 246)
-        btnForNext.Name = "btnForNext"
-        btnForNext.Size = New Size(94, 29)
-        btnForNext.TabIndex = 10
-        btnForNext.Text = "FOR NEXT"
-        btnForNext.UseVisualStyleBackColor = True
-        ' 
-        ' btnDoLoop
-        ' 
-        btnDoLoop.Location = New Point(371, 281)
-        btnDoLoop.Name = "btnDoLoop"
-        btnDoLoop.Size = New Size(94, 29)
-        btnDoLoop.TabIndex = 11
-        btnDoLoop.Text = "Do Loop"
-        btnDoLoop.UseVisualStyleBackColor = True
-        ' 
-        ' btnDoLoop1
-        ' 
-        btnDoLoop1.Location = New Point(371, 316)
-        btnDoLoop1.Name = "btnDoLoop1"
-        btnDoLoop1.Size = New Size(94, 29)
-        btnDoLoop1.TabIndex = 12
-        btnDoLoop1.Text = "Do Loop1"
-        btnDoLoop1.UseVisualStyleBackColor = True
-        ' 
-        ' btnDoLoop2
-        ' 
-        btnDoLoop2.Location = New Point(371, 351)
-        btnDoLoop2.Name = "btnDoLoop2"
-        btnDoLoop2.Size = New Size(94, 29)
-        btnDoLoop2.TabIndex = 13
-        btnDoLoop2.Text = "Do Loop2"
-        btnDoLoop2.UseVisualStyleBackColor = True
+        btnHitung.Location = New Point(108, 307)
+        btnHitung.Name = "btnHitung"
+        btnHitung.Size = New Size(94, 29)
+        btnHitung.TabIndex = 5
+        btnHitung.Text = "Hitung"
+        btnHitung.UseVisualStyleBackColor = True
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
-        Controls.Add(btnDoLoop2)
-        Controls.Add(btnDoLoop1)
-        Controls.Add(btnDoLoop)
-        Controls.Add(btnForNext)
-        Controls.Add(btnCase)
-        Controls.Add(btnIF3)
-        Controls.Add(btnIF2)
-        Controls.Add(btnIF1)
-        Controls.Add(btnIF)
-        Controls.Add(btnOperator2)
-        Controls.Add(btnOperator1)
-        Controls.Add(btnOperator)
-        Controls.Add(btnVariabel1)
-        Controls.Add(btnVariabel)
+        Controls.Add(btnHitung)
+        Controls.Add(txtboxLebar)
+        Controls.Add(txtboxPanjang)
+        Controls.Add(Label3)
+        Controls.Add(Label2)
+        Controls.Add(Label1)
         Name = "Form1"
         Text = "Form1"
         ResumeLayout(False)
+        PerformLayout()
     End Sub
 
-    Friend WithEvents btnVariabel As Button
-    Friend WithEvents btnVariabel1 As Button
-    Friend WithEvents btnOperator As Button
-    Friend WithEvents btnOperator1 As Button
-    Friend WithEvents btnOperator2 As Button
-    Friend WithEvents btnIF As Button
-    Friend WithEvents btnIF1 As Button
-    Friend WithEvents btnIF2 As Button
-    Friend WithEvents btnIF3 As Button
-    Friend WithEvents btnCase As Button
-    Friend WithEvents btnForNext As Button
-    Friend WithEvents btnDoLoop As Button
-    Friend WithEvents btnDoLoop1 As Button
-    Friend WithEvents btnDoLoop2 As Button
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents txtboxPanjang As TextBox
+    Friend WithEvents txtboxLebar As TextBox
+    Friend WithEvents btnHitung As Button
 
 End Class

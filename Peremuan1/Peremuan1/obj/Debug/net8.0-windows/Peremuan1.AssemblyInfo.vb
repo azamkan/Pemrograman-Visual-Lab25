@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Peremuan1"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f8fa597bf999f39fa09224d6429ed8aa88fa85b"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d44fca52e8be205244b0b3fbb9361cf58b1134a8"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Peremuan1"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Peremuan1"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
