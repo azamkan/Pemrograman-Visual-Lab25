@@ -1,0 +1,46 @@
+# Visual Studio & .NET related
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.psess
+*.vsp
+
+# Paket NuGet
+*.nupkg
+packages/
+project.lock.json
+
+# Konfigurasi Editor
+*.swp
+*.sln.docstates
+
+# Konfigurasi OS
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Cache & Log
+*.log
+*.cache
+*.ldb
+*.tmp
+
+# File Build
+DataMahasiswa/Data_Mahasiswa/obj/
+DataMahasiswa/Data_Mahasiswa/bin/
+
+# File Debugging
+*.pdb
+*.ilk
+*.aps
+*.idb
+*.tlog
+
+# File yang dihasilkan oleh Visual Studio
+*.vscode/
+*.vs/
+*.sdf
+*.VC.db
+*.VC.opendb

@@ -25,24 +25,24 @@ Partial Class Form1
         Label1 = New Label()
         Label2 = New Label()
         Label3 = New Label()
-        RBLaki = New RadioButton()
-        RBPR = New RadioButton()
-        GBJK = New GroupBox()
-        CBbelajar = New CheckBox()
-        CBmaingame = New CheckBox()
-        CBjalan = New CheckBox()
-        CBmancing = New CheckBox()
-        CBbuku = New CheckBox()
-        CBcoding = New CheckBox()
-        GBHobi = New GroupBox()
-        TextBox1 = New TextBox()
-        TextBox2 = New TextBox()
-        DateTimePicker1 = New DateTimePicker()
+        rb_laki = New RadioButton()
+        rb_pr = New RadioButton()
+        gb_jk = New GroupBox()
+        cb_belajar = New CheckBox()
+        cb_maingame = New CheckBox()
+        cb_jalan = New CheckBox()
+        cb_mancing = New CheckBox()
+        cb_buku = New CheckBox()
+        cb_coding = New CheckBox()
+        gb_hobi = New GroupBox()
+        tb_nama = New TextBox()
+        tb_nim = New TextBox()
+        dtp_lahir = New DateTimePicker()
         PictureBox1 = New PictureBox()
         btn_gambar = New Button()
         btn_simpan = New Button()
-        GBJK.SuspendLayout()
-        GBHobi.SuspendLayout()
+        gb_jk.SuspendLayout()
+        gb_hobi.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -73,140 +73,141 @@ Partial Class Form1
         Label3.TabIndex = 2
         Label3.Text = "Tanggal Lahir"
         ' 
-        ' RBLaki
+        ' rb_laki
         ' 
-        RBLaki.AutoSize = True
-        RBLaki.Location = New Point(25, 38)
-        RBLaki.Name = "RBLaki"
-        RBLaki.Size = New Size(96, 24)
-        RBLaki.TabIndex = 3
-        RBLaki.TabStop = True
-        RBLaki.Text = "Laki - Laki"
-        RBLaki.UseVisualStyleBackColor = True
+        rb_laki.AutoSize = True
+        rb_laki.Location = New Point(25, 38)
+        rb_laki.Name = "rb_laki"
+        rb_laki.Size = New Size(96, 24)
+        rb_laki.TabIndex = 3
+        rb_laki.TabStop = True
+        rb_laki.Text = "Laki - Laki"
+        rb_laki.UseVisualStyleBackColor = True
         ' 
-        ' RBPR
+        ' rb_pr
         ' 
-        RBPR.AutoSize = True
-        RBPR.Location = New Point(230, 38)
-        RBPR.Name = "RBPR"
-        RBPR.Size = New Size(104, 24)
-        RBPR.TabIndex = 4
-        RBPR.TabStop = True
-        RBPR.Text = "Perempuan"
-        RBPR.UseVisualStyleBackColor = True
+        rb_pr.AutoSize = True
+        rb_pr.Location = New Point(230, 38)
+        rb_pr.Name = "rb_pr"
+        rb_pr.Size = New Size(104, 24)
+        rb_pr.TabIndex = 4
+        rb_pr.TabStop = True
+        rb_pr.Text = "Perempuan"
+        rb_pr.UseVisualStyleBackColor = True
         ' 
-        ' GBJK
+        ' gb_jk
         ' 
-        GBJK.Controls.Add(RBLaki)
-        GBJK.Controls.Add(RBPR)
-        GBJK.Location = New Point(258, 169)
-        GBJK.Name = "GBJK"
-        GBJK.Size = New Size(492, 86)
-        GBJK.TabIndex = 5
-        GBJK.TabStop = False
-        GBJK.Text = "Jenis Kelamin"
+        gb_jk.Controls.Add(rb_laki)
+        gb_jk.Controls.Add(rb_pr)
+        gb_jk.Location = New Point(258, 169)
+        gb_jk.Name = "gb_jk"
+        gb_jk.Size = New Size(492, 86)
+        gb_jk.TabIndex = 5
+        gb_jk.TabStop = False
+        gb_jk.Text = "Jenis Kelamin"
         ' 
-        ' CBbelajar
+        ' cb_belajar
         ' 
-        CBbelajar.AutoSize = True
-        CBbelajar.Location = New Point(25, 40)
-        CBbelajar.Name = "CBbelajar"
-        CBbelajar.Size = New Size(77, 24)
-        CBbelajar.TabIndex = 6
-        CBbelajar.Text = "Belajar"
-        CBbelajar.UseVisualStyleBackColor = True
+        cb_belajar.AutoSize = True
+        cb_belajar.Location = New Point(25, 40)
+        cb_belajar.Name = "cb_belajar"
+        cb_belajar.Size = New Size(77, 24)
+        cb_belajar.TabIndex = 6
+        cb_belajar.Text = "Belajar"
+        cb_belajar.UseVisualStyleBackColor = True
         ' 
-        ' CBmaingame
+        ' cb_maingame
         ' 
-        CBmaingame.AutoSize = True
-        CBmaingame.Location = New Point(25, 80)
-        CBmaingame.Name = "CBmaingame"
-        CBmaingame.Size = New Size(107, 24)
-        CBmaingame.TabIndex = 7
-        CBmaingame.Text = "Main Game"
-        CBmaingame.UseVisualStyleBackColor = True
+        cb_maingame.AutoSize = True
+        cb_maingame.Location = New Point(25, 80)
+        cb_maingame.Name = "cb_maingame"
+        cb_maingame.Size = New Size(107, 24)
+        cb_maingame.TabIndex = 7
+        cb_maingame.Text = "Main Game"
+        cb_maingame.UseVisualStyleBackColor = True
         ' 
-        ' CBjalan
+        ' cb_jalan
         ' 
-        CBjalan.AutoSize = True
-        CBjalan.Location = New Point(181, 40)
-        CBjalan.Name = "CBjalan"
-        CBjalan.Size = New Size(111, 24)
-        CBjalan.TabIndex = 8
-        CBjalan.Text = "Jalan - Jalan"
-        CBjalan.UseVisualStyleBackColor = True
+        cb_jalan.AutoSize = True
+        cb_jalan.Location = New Point(181, 40)
+        cb_jalan.Name = "cb_jalan"
+        cb_jalan.Size = New Size(111, 24)
+        cb_jalan.TabIndex = 8
+        cb_jalan.Text = "Jalan - Jalan"
+        cb_jalan.UseVisualStyleBackColor = True
         ' 
-        ' CBmancing
+        ' cb_mancing
         ' 
-        CBmancing.AutoSize = True
-        CBmancing.Location = New Point(181, 80)
-        CBmancing.Name = "CBmancing"
-        CBmancing.Size = New Size(88, 24)
-        CBmancing.TabIndex = 9
-        CBmancing.Text = "Mancing"
-        CBmancing.UseVisualStyleBackColor = True
+        cb_mancing.AutoSize = True
+        cb_mancing.Location = New Point(181, 80)
+        cb_mancing.Name = "cb_mancing"
+        cb_mancing.Size = New Size(88, 24)
+        cb_mancing.TabIndex = 9
+        cb_mancing.Text = "Mancing"
+        cb_mancing.UseVisualStyleBackColor = True
         ' 
-        ' CBbuku
+        ' cb_buku
         ' 
-        CBbuku.AutoSize = True
-        CBbuku.Location = New Point(342, 40)
-        CBbuku.Name = "CBbuku"
-        CBbuku.Size = New Size(99, 24)
-        CBbuku.TabIndex = 10
-        CBbuku.Text = "Baca Buku"
-        CBbuku.UseVisualStyleBackColor = True
+        cb_buku.AutoSize = True
+        cb_buku.Location = New Point(342, 40)
+        cb_buku.Name = "cb_buku"
+        cb_buku.Size = New Size(99, 24)
+        cb_buku.TabIndex = 10
+        cb_buku.Text = "Baca Buku"
+        cb_buku.UseVisualStyleBackColor = True
         ' 
-        ' CBcoding
+        ' cb_coding
         ' 
-        CBcoding.AutoSize = True
-        CBcoding.Location = New Point(342, 80)
-        CBcoding.Name = "CBcoding"
-        CBcoding.Size = New Size(79, 24)
-        CBcoding.TabIndex = 11
-        CBcoding.Text = "Coding"
-        CBcoding.UseVisualStyleBackColor = True
+        cb_coding.AutoSize = True
+        cb_coding.Location = New Point(342, 80)
+        cb_coding.Name = "cb_coding"
+        cb_coding.Size = New Size(79, 24)
+        cb_coding.TabIndex = 11
+        cb_coding.Text = "Coding"
+        cb_coding.UseVisualStyleBackColor = True
         ' 
-        ' GBHobi
+        ' gb_hobi
         ' 
-        GBHobi.Controls.Add(CBbelajar)
-        GBHobi.Controls.Add(CBcoding)
-        GBHobi.Controls.Add(CBmaingame)
-        GBHobi.Controls.Add(CBbuku)
-        GBHobi.Controls.Add(CBjalan)
-        GBHobi.Controls.Add(CBmancing)
-        GBHobi.Location = New Point(258, 283)
-        GBHobi.Name = "GBHobi"
-        GBHobi.Size = New Size(492, 125)
-        GBHobi.TabIndex = 12
-        GBHobi.TabStop = False
-        GBHobi.Text = "Hobi"
+        gb_hobi.Controls.Add(cb_belajar)
+        gb_hobi.Controls.Add(cb_coding)
+        gb_hobi.Controls.Add(cb_maingame)
+        gb_hobi.Controls.Add(cb_buku)
+        gb_hobi.Controls.Add(cb_jalan)
+        gb_hobi.Controls.Add(cb_mancing)
+        gb_hobi.Location = New Point(258, 283)
+        gb_hobi.Name = "gb_hobi"
+        gb_hobi.Size = New Size(492, 125)
+        gb_hobi.TabIndex = 12
+        gb_hobi.TabStop = False
+        gb_hobi.Text = "Hobi"
         ' 
-        ' TextBox1
+        ' tb_nama
         ' 
-        TextBox1.Location = New Point(381, 40)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(369, 27)
-        TextBox1.TabIndex = 13
+        tb_nama.Location = New Point(381, 40)
+        tb_nama.Name = "tb_nama"
+        tb_nama.Size = New Size(369, 27)
+        tb_nama.TabIndex = 13
         ' 
-        ' TextBox2
+        ' tb_nim
         ' 
-        TextBox2.Location = New Point(381, 82)
-        TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(369, 27)
-        TextBox2.TabIndex = 14
+        tb_nim.Location = New Point(381, 82)
+        tb_nim.Name = "tb_nim"
+        tb_nim.Size = New Size(369, 27)
+        tb_nim.TabIndex = 14
         ' 
-        ' DateTimePicker1
+        ' dtp_lahir
         ' 
-        DateTimePicker1.Location = New Point(381, 124)
-        DateTimePicker1.Name = "DateTimePicker1"
-        DateTimePicker1.Size = New Size(369, 27)
-        DateTimePicker1.TabIndex = 15
+        dtp_lahir.Location = New Point(381, 124)
+        dtp_lahir.Name = "dtp_lahir"
+        dtp_lahir.Size = New Size(369, 27)
+        dtp_lahir.TabIndex = 15
         ' 
         ' PictureBox1
         ' 
         PictureBox1.Location = New Point(25, 40)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(215, 248)
+        PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
         PictureBox1.TabIndex = 16
         PictureBox1.TabStop = False
         ' 
@@ -236,20 +237,20 @@ Partial Class Form1
         Controls.Add(btn_simpan)
         Controls.Add(btn_gambar)
         Controls.Add(PictureBox1)
-        Controls.Add(DateTimePicker1)
-        Controls.Add(TextBox2)
-        Controls.Add(TextBox1)
-        Controls.Add(GBHobi)
-        Controls.Add(GBJK)
+        Controls.Add(dtp_lahir)
+        Controls.Add(tb_nim)
+        Controls.Add(tb_nama)
+        Controls.Add(gb_hobi)
+        Controls.Add(gb_jk)
         Controls.Add(Label3)
         Controls.Add(Label2)
         Controls.Add(Label1)
         Name = "Form1"
         Text = "Form1"
-        GBJK.ResumeLayout(False)
-        GBJK.PerformLayout()
-        GBHobi.ResumeLayout(False)
-        GBHobi.PerformLayout()
+        gb_jk.ResumeLayout(False)
+        gb_jk.PerformLayout()
+        gb_hobi.ResumeLayout(False)
+        gb_hobi.PerformLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
@@ -258,19 +259,19 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents RBLaki As RadioButton
-    Friend WithEvents RBPR As RadioButton
-    Friend WithEvents GBJK As GroupBox
-    Friend WithEvents CBbelajar As CheckBox
-    Friend WithEvents CBmaingame As CheckBox
-    Friend WithEvents CBjalan As CheckBox
-    Friend WithEvents CBmancing As CheckBox
-    Friend WithEvents CBbuku As CheckBox
-    Friend WithEvents CBcoding As CheckBox
-    Friend WithEvents GBHobi As GroupBox
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents rb_laki As RadioButton
+    Friend WithEvents rb_pr As RadioButton
+    Friend WithEvents gb_jk As GroupBox
+    Friend WithEvents cb_belajar As CheckBox
+    Friend WithEvents cb_maingame As CheckBox
+    Friend WithEvents cb_jalan As CheckBox
+    Friend WithEvents cb_mancing As CheckBox
+    Friend WithEvents cb_buku As CheckBox
+    Friend WithEvents cb_coding As CheckBox
+    Friend WithEvents gb_hobi As GroupBox
+    Friend WithEvents tb_nama As TextBox
+    Friend WithEvents tb_nim As TextBox
+    Friend WithEvents dtp_lahir As DateTimePicker
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents btn_gambar As Button
     Friend WithEvents btn_simpan As Button
